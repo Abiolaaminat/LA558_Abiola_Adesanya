@@ -7,6 +7,6 @@ The following is some links to the exercises, assignments and class projects.
 
 # Class Exercises
 
-[Task_1b](Task 1b/Task 1b.md)
+[Task 1b](Task 1b/Task 1b.md)
 
 [Exercise_2b](Ex2b/ex2b_2.md)
