@@ -7,6 +7,6 @@ The following is some links to the exercises, assignments and class projects.
 
 # Class Exercises
 
-[Task_1b](Task1b/Task1b.md)
+[Task_1b](Task1b/Task1b.md) - An analysis of flight data
 
 [Exercise_2b](Ex2b/ex2b_2.md)
