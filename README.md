@@ -9,4 +9,6 @@ The following is some links to the exercises, assignments and class projects.
 
 [Task_1b](Task1b/Task1b.md) - A quick insight from the flight and visualization of candy data provided by the course instructor
 
-[Exercise_2b](Ex2b/ex2b_2.md)
+[Exercise_2b](Ex2b/ex2b_2.md) - Exploring QGIS
+
+# Assignments
