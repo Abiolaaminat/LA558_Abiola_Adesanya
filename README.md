@@ -12,4 +12,4 @@ The following is some links to the exercises, assignments and class projects.
 [Exercise_2b](Ex2b/ex2b_2.md) - Exploring QGIS
 
 # Assignments
-3a - [Open street Map](Assignment/Assignment13a_osm.html) - This a map that shows the location of Minnehaha Park, one of my fovourites spots in Minnesota during the Summer
+3a - [Open street Map](Assignment/Assignment1/3a_osm.html) - This a map that shows the location of Minnehaha Park, one of my fovourites spots in Minnesota during the Summer
