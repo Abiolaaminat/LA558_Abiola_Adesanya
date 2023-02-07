@@ -13,4 +13,4 @@ The following is some links to the exercises, assignments and class projects.
 
 # Assignments
 
-[3a](Assignment1/Assignment3a.html) - This html file links to everything about Assignment 3a
+[3a](Assignment/Assignment3a.html) - This html file links to everything about Assignment 3a
