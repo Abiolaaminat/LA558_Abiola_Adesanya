@@ -7,7 +7,7 @@ install.packages("tidyverse")
 library(tidyverse)
 
 library(readxl)
-setwd("C:/Users/Adesanya Aminat A/Desktop/LA 558/LA558_Abiola_Adesanya/R")
+setwd("C:/Users/Adesanya Aminat A/Desktop/LA 558/LA558_Abiola_Adesanya/Assignment2")
 
 disability_data <- read_excel('Copy of 2017-2021 disability data.xlsx')
 
@@ -38,13 +38,17 @@ disability_data4 <- disability_data3 %>%
     Total_female_with_disability = as.numeric(`35to64_F(With disability)`) + as.numeric(`65to74_F(with disability)`) + as.numeric(`75toF_(with disability)`)
   )
 
+
 #Total: total male+ total female 
+
 disability_data5 <- disability_data4 %>% 
   mutate(
     Total_population= Total_male + Total_female
   )
 
-#Total disability: total male with disabikity + total female with disability
+
+#Total disability: total male with disability + total female with disability
+
 disability_data6 <- disability_data5 %>% 
   mutate(
     Total_disability = Total_male_with_disability + Total_female_with_disability
@@ -54,11 +58,13 @@ disability_data6 <- disability_data5 %>%
 
 disability_data7  <- select(disability_data6 , -BTTRA,-...12)
 
+
 #Total %: total male+ total female 
 disability_data8 <- disability_data7 %>% 
   mutate(
     Totalmale_percentage= (Total_male_with_disability/Total_male)*(100)
   )
+
 
 disability_data9 <- disability_data8 %>% 
   mutate(
@@ -69,8 +75,6 @@ disability_data10 <- disability_data9 %>%
   mutate(
     Totaldisability_percentage= (Total_disability/ Total_population)*(100)
   )
-
-
 
 # To create barchart
 
@@ -106,8 +110,37 @@ ggplot(data = data_chart, aes(x = COUNTY)) +
   ylab("PERCENTAGE") +
   ggtitle("Gender Distribution in Top Five Counties")
 
+#Map creation
+install.packages(c("usmap", "usmapdata"))
+install.packages("sf")
 
+# Bringing in a shapefile
 
+library("sf")
+setwd("C:/Users/Adesanya Aminat A/Desktop/LA 558/LA558_Abiola_Adesanya/Assignment2")
+iowacounties_sf <- st_read("disabilities_counties.shp")
 
+#Plotting the shapefile
+ggplot() +
+  geom_sf(data = iowacounties_sf, size = 3, color = "black", fill = "red") + 
+  ggtitle("Spatial Location of Counties with the Highest Percentage of People with Disability") +
+  coord_sf()
+
+#to join 
+myMap <- left_join(iowacounties_sf, filtered_data, by = "GISJOIN")
+
+#Plotting
+
+ggplot(myMap) + 
+  geom_sf(aes(fill = Totaldisability_percentage))+
+  ggtitle("Spatial Location of Counties with the Highest % of People with Disability")
+
+#remove the background and center the title
+ggplot(myMap) + 
+  geom_sf (aes(fill = Totaldisability_percentage))+
+  ggtitle("Spatial Location of Counties with the Highest % of People with Disability")+
+  theme_void() + 
+  # move the title text to the middle
+  theme(plot.title=element_text(hjust=0.5))
 
 
