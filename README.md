@@ -11,6 +11,8 @@ The following is some links to the exercises, assignments and class projects.
 
 [Exercise_2b](Ex2b/ex2b_2.md) - Exploring QGIS
 
+[Exercise6a](Exercise6a.md) - Exploring Tidycensus
+
 # Assignments
 
 [1](Assignment/Assignment1.html) - This html file links to everything about Assignment 3a
