@@ -1,11 +1,13 @@
 # Assignment 3
 
 ## Plot 1
-First Plot displays the percentage of households that receive food stamps among the Black or African American only in Texas using Tidycensus 
+First Plot displays the percentage of households that receive food stamps among the Black or African American only in Texas using Tidycensus
+
 ![Here is the Plot 1](Plot1.png)
 
 ## Plot 2
 The pie chart shows the counties in Texas with the highest number of black or african american in Texas using Tidycensus. "Highest number" is defined here as those counties above 100,000
+
 ![Here is the Plot 2](Plot2.png)
 
 ## Plot 3
