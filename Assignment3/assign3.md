@@ -10,4 +10,5 @@ The pie chart shows the counties in Texas with the highest number of black or af
 
 ## Plot 3
 The third plot was developed using external data from a xlxs file and GIS shapefile. Specifically, the Map shows the spatial distribution of BIPOCs in Minnesota. This was achieved by getting the percentages of BIPOCS in each census tract, joining with Minnesota shapefile, and plotting with %BIPOC.
+
 ![Here is the Plot 3](Plot3.png)
