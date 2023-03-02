@@ -18,3 +18,5 @@ The following is some links to the exercises, assignments and class projects.
 [1](Assignment/Assignment1.html) - This html file links to everything about Assignment 3a
 
 [2](Assignment2/assign2.md) - Exploring R
+
+[3] (Assignment3/assign.md) - Mastering R
