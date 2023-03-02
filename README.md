@@ -19,4 +19,4 @@ The following is some links to the exercises, assignments and class projects.
 
 [2](Assignment2/assign2.md) - Exploring R
 
-[3] (Assignment3/assign.md) - Mastering R
+[3](Assignment3/assign.md) - Mastering R
