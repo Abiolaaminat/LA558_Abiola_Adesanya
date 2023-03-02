@@ -1,4 +1,5 @@
 # Assignment 3
+
 ## Plot 1
 First Plot displays the percentage of households that receive food stamps among the Black or African American only in Texas using Tidycensus
 
