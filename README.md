@@ -20,3 +20,8 @@ The following is some links to the exercises, assignments and class projects.
 [2](Assignment2/assign2.md) - Exploring R
 
 [3](Assignment3/assign3.md) - Mastering R
+
+# Abiola Adesanya's LA558 Portfolio
+
+This repo shows all of my exercises, assignments and projects for LA 558
+The [index.md](index.md) file contains contenet for the GitHub web page <https://abiolaaminat.github.io/LA558_Abiola_Adesanya/>
