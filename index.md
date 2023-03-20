@@ -21,3 +21,4 @@ The following is some links to the exercises, assignments and class projects.
 
 [3](Assignment3/assign3.md) - Mastering R
 
+[4](Assignment4/Assign4.html) - Leaflet Markers & Choropleth Map in R
