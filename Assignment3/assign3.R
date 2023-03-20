@@ -69,7 +69,7 @@ top_counties
 library(ggplot2)
 
 mycols <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF", "#33658A", "#55dde0", "#F26419")
-pie(top_counties$estimate, labels = top_counties$NAME, main = "Top Counties with Population above 100000", col = mycols)
+pie(top_counties$estimate, labels = top_counties$NAME, main = "Top Counties with Black Population above 100000", col = mycols)
   
 #Plot 3
 library(readxl)
@@ -107,10 +107,4 @@ ggplot(myMap) +
   # move the title text to the middle
   theme(plot.title=element_text(hjust=0.5))
 
-plot3 <- ggplot(data = myMap) +
-  geom_sf(aes(fill = BIPOC_PER)) + 
-  scale_colour_brewer(palette = "Spectral") +
-  coord_sf(crs = "+init=epsg:26849") +
-  labs(title = "Spatial Distribution of Blacks, Indigenous and People of COlor in Minnesota", fill="BIPOC_PER") +
-  theme(rect = element_blank(), axis.ticks = element_blank(), 
-        axis.text.x = element_blank(), axis.text.y = element_blank())
+
