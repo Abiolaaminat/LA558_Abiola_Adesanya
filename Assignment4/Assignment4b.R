@@ -122,12 +122,12 @@ map <- leaflet() %>%
                 direction = "auto"))
 map
                              
-# adding legend
-map %>% addLegend(pal = pal, values = count, opacity = 0.7, title = "CarUsers",
-                  position = "bottomright")
-
 
 bounds <- vehicletype %>%
   st_bbox() %>%
   as.character()
 fitBounds(map, bounds[1], bounds[2], bounds[3], bounds[4])
+
+# adding legend
+map %>% addLegend(pal = pal, values = count, opacity = 0.7, title = "CarUsers",
+                  position = "bottomright")
