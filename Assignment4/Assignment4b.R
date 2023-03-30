@@ -96,12 +96,17 @@ df <- data.frame(longitude, latitude)
 #convert to spatial data frame
 df_sf = st_as_sf(df, coords = c("longitude", "latitude"), crs = 4326)
 
+bounds <- vehicletype %>%
+  st_bbox() %>%
+  as.character()
+
+
 
 map <- leaflet() %>%
   setView(-97.5, 49.5, 9) %>%
   addTiles() %>%
   addMarkers(data = df_sf) %>%
-  #fitBounds(bounds[1], bounds[2], bounds[3], bounds[4]) %>%
+  fitBounds(bounds[1], bounds[2], bounds[3], bounds[4]) %>%
   addPolygons(data = vehicletype,
               fillColor = ~pal(count),
               weight = 0.5,
@@ -123,10 +128,7 @@ map <- leaflet() %>%
 map
                              
 
-bounds <- vehicletype %>%
-  st_bbox() %>%
-  as.character()
-fitBounds(map, bounds[1], bounds[2], bounds[3], bounds[4])
+
 
 # adding legend
 map %>% addLegend(pal = pal, values = count, opacity = 0.7, title = "CarUsers",
