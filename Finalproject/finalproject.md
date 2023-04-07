@@ -18,7 +18,7 @@ National preservation data, shape files, pictures
 My historic preservation class in Fall 2021 inspired this project.
 
 ## Potential Challenges
-The challenge I am seeing right now is with the data set. I tried to do a field scan before writing this proposal, and one issue I am seeing is with the latitude and longitude. Currently, the location of historic places is written as street addresses. Is there a way this could be converted to coordinates?
+The challenge I am seeing right now is with the data set. 
 
 ## Timeline
 Because I am very skeptical about data availability, I intend to start this weekend. So my proposed timeline is:
