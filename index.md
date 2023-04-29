@@ -28,3 +28,7 @@ The following is some links to the exercises, assignments and class projects.
 [6](Assignment6/assign6.html) - Tableau
 
 [7](Assignment7/assign7.html) - Tableau
+
+# Final Project
+
+[1](Finalproject/Prop1.html)
