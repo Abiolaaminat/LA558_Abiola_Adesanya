@@ -31,4 +31,4 @@ The following is some links to the exercises, assignments and class projects.
 
 # Final Project
 
-[1](Finalproject/Prop1.html)
+[1](Finalproject/finalproject.html)
