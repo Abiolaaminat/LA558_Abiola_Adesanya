@@ -23,7 +23,7 @@ The following is some links to the exercises, assignments and class projects.
 
 [4](Assignment4/Assign4.html) - Leaflet Markers & Choropleth Map in R
 
-[5](Assignment5/assign5.md) - Final Project
+[5](Assignment5/assign5.md) - Final Project Proposal
 
 [6](Assignment6/assign6.html) - Tableau
 
