@@ -32,3 +32,5 @@ The following is some links to the exercises, assignments and class projects.
 # Final Project
 
 [1](Finalproject/finalproject.html)
+
+[2](Finalproject/FinalprojectTableau.html)
