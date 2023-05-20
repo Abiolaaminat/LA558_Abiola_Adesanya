@@ -13,6 +13,8 @@ The following is some links to the exercises, assignments and class projects.
 
 [Exercise 6a](Exercise6a/Exercise6a.md) - Exploring Tidycensus
 
+[Exercise_none](GISPoster/gisposter.html) - Remote Sensing
+
 # Assignments
 
 [1](Assignment/Assignment1.html) - This html file links to everything about Assignment 3a
